@@ -28,7 +28,7 @@ const Blog = () => {
             </div>
             </div>
              <div>
-            <button className="btn">Read</button>
+            <button id="bt">Read</button>
           </div>
           </div>
 
@@ -51,7 +51,7 @@ const Blog = () => {
             </div>
             </div>
              <div>
-            <button className="btn">Read</button>
+            <button id="bt">Read</button>
           </div>
           </div>
 
@@ -74,7 +74,7 @@ const Blog = () => {
             </div>
             </div>
              <div>
-            <button className="btn">Read</button>
+            <button id="bt" className="">Read</button>
           </div>
           </div>
 
