@@ -14,7 +14,7 @@ const Nav = () => {
                     <li className=''>Contact</li>
                 </ul>
                 <div>
-                    <button className='btn syne'>HIRE ME</button>
+                    <button id='btnn' className=' syne'>HIRE ME</button>
                 </div>
             </div>
         </div>

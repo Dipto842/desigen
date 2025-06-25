@@ -30,7 +30,7 @@ const Works = () => {
     <div><p className='tag-item' >ux</p></div>
 </div>
 <div>
-    <button className='btn'>View Case Study</button>
+    <button id='btn' className='btnn'>View Case Study</button>
 </div>
     </div>
 </div>
@@ -50,7 +50,7 @@ const Works = () => {
     <div><p className='tag-item' >ux</p></div>
 </div>
 <div>
-    <button className='btn'>View Case Study</button>
+    <button id='btn'>View Case Study</button>
 </div>
     </div>
 </div>
@@ -70,7 +70,7 @@ const Works = () => {
     <div><p className='tag-item' >ux</p></div>
 </div>
 <div>
-    <button className='btn'>View Case Study</button>
+    <button id='btn' >View Case Study</button>
 </div>
     </div>
 </div>

@@ -1,0 +1,95 @@
+  @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.syne{
+  font-family: "Syne", sans-serif;
+  font-family: 500px;
+ 
+}
+.poppins {
+  font-family: "Poppins";
+  font-weight: 400px;
+}
+  
+  
+  .footer{
+    color: white;
+    width: 1200px;
+    margin: auto;
+  }
+  
+  
+  .marquee-text {
+    display: flex;
+    gap: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    background-color: #000; /* black background */
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 100px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('../Expertise/Star.png'); /* বা PNG/SVG icon link */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .TALK{
+    font-size: 64px;
+    line-height: 80px;
+    align-items: center;
+    text-align: center;
+  }
+  .email{
+    font-size: 18px;
+    text-align: center;
+
+  }
+  .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .sosal{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  /* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .marquee-text {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .TALK {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: start;
+  }
+
+  .email {
+    font-size: 16px;
+    text-align: start;
+  }
+
+  .last {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+  }
+
+  .sosal {
+    justify-content: center;
+  }
+}

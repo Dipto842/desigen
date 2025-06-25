@@ -4,6 +4,8 @@ import Benar from './Benar/Benar';
 import Blog from './Blog/Blog';
 import Experience from './Experience/Experience';
 import Expertis from './Expertise/Expertis';
+import Footer from './Footer/Footer';
+import Frequently from './Frequently/Frequently';
 
 
 import Nav from './Navebar/Nav';
@@ -28,6 +30,8 @@ function App() {
     <Experience></Experience>
     <Blog></Blog>
     <Say></Say>
+    <Frequently></Frequently>
+    <Footer></Footer>
     </div>
   );
 }
