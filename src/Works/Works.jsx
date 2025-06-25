@@ -7,7 +7,11 @@ import img3 from "./img/image 22.png"
 const Works = () => {
     return (
         <div className='work'>
-           <h1 className='hedig'><span><img width={'28px'} src={img} alt="" /></span> Works </h1>
+           <div className='work-hedig'>
+            <h1 className='hedig'><span><img width={'28px'} src={img} alt="" /></span> Works </h1>
+           
+            <p ><a className=' link' href="">view all</a></p>
+           </div>
 
 
 <div className='card'>
